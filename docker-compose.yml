@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  master:
+    build: .
+    restart: always
+    hostname: localhost
+    ports: 
+      - 27017:27017
+      - 27018:27018
+      - 27019:27019
